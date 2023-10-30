@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
-class Saftoast extends StatefulWidget {
-  const Saftoast({super.key});
+class SampleToast extends StatefulWidget {
+  const SampleToast({super.key});
 
   @override
-  State<Saftoast> createState() => _SaftoastState();
+  State<SampleToast> createState() => _SampleToastState();
 }
 
-class _SaftoastState extends State<Saftoast> {
+class _SampleToastState extends State<SampleToast> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
